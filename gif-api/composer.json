@@ -1,0 +1,12 @@
+{
+  "autoload": {
+    "psr-4": {
+      "gifApp\\": "gifApp/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.5",
+    "symfony/dotenv": "^5.4",
+    "vlucas/phpdotenv": "^5.5"
+  }
+}
