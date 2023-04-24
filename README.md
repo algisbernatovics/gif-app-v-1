@@ -1,4 +1,4 @@
-<img src="gif-api/preview.png">
+<img src="preview.png">
 
 Simple page to fetch GIFS of your choice from GIPHY library
 
