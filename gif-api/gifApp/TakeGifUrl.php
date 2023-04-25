@@ -1,6 +1,9 @@
 <?php
 
 namespace gifApp;
+
+use gifApp\Models\UrlRecord;
+
 class TakeGifUrl
 {
     protected array $searchResults;

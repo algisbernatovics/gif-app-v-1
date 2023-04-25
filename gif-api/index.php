@@ -25,12 +25,6 @@
 
 include 'main.php';
 
-$urls = $app->getUrls();
-foreach ($urls as $key => $url) {
-    $currentUrl = $url->getUrl();
-    echo "$key
-    <item1><image><img src=$currentUrl></image></item1>";
-}
 
 ?>
 </body>

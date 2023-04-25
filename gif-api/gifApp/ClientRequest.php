@@ -17,11 +17,9 @@ class ClientRequest
         $client = new Client(['base_uri' => self::BASE_URI]);
 
         try {
-            $this->response = $client->request('GET',
-                "search?q=$searchPhrase&api_key=$API_KEY&limit=$resultLimit");
+            $this->response = $client->request('GET', "search?q=$searchPhrase&api_key=$API_KEY&limit=$resultLimit");
 
-        } catch
-        (GuzzleException $e) {
+        } catch (GuzzleException $e) {
         }
 
         $this->searchResults = json_decode($this->response->getBody(), true)['data'];
